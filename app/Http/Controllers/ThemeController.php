@@ -15,13 +15,8 @@ class ThemeController extends Controller
     public function contact(){
         return view('theme.contact') ;
     }
-    public function login(){
-        return view('theme.login') ;
-    }
+
     public function singleBlog(){
         return view('theme.single-blog') ;
-    }
-    public function register(){
-        return view('theme.register') ;
     }
 }
