@@ -15,11 +15,7 @@ class BlogController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
-    {
-        $blogs = Blog::paginate(4) ;
-        return view('theme.index', compact('blogs')) ;
-    }
+
 
     /**
      * Show the form for creating a new resource.
